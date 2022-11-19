@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+//JavaScript to illustrate JSON.parse() method.
+var j = '{"Name":"Dessalew","Email": "abushay123@gmail.com", "Address": "Jimma"}';
+var data = JSON.parse(j);
+document.write("Convert string in JSON format using parse() method<br>");
+document.write(data.Name); //expected output: XYZ
+
+//JavaScript to illustrate JSON.stringify() method.
+var j = {Name:"ABebe",
+Email: "XYZ", CN : "Jimma"};
+var data = JSON.stringify(j);
+document.write("<br>Convert string in JSON format using stringify()  method<br>");
+document.write(data); //expected output: {"Name":"Krishna","Email":"XYZ","CN":12345}
+
+</script>
+
+</body>
+</html>
