@@ -10,6 +10,7 @@ class Main {
 
   int sum = 0;
     int n = 1000;
+    int k=0;
 
     // for loop
     for (int i = 1; i <= n; ++i) {
